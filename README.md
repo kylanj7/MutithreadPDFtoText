@@ -14,13 +14,16 @@ A Python script that efficiently extracts text from multiple PDF files (Batch Pr
 
 ```bash
 mkdir PDFtoText
+
 cd PDFtoText
 ```
 
-## Create a Virtual Environment
+## Create a Virtual Environment & Activate
 
 ```bash
 Python3 -m venv PDFtoText_env
+
+source PDFtoText_env/bin/activate
 ```
 
 ## Requirements
