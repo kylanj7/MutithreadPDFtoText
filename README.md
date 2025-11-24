@@ -8,6 +8,20 @@ A Python script that efficiently extracts text from multiple PDF files (Batch Pr
 - **Smart Text Chunking**: Uses LangChain's RecursiveCharacterTextSplitter for intelligent text segmentation
 - **Metadata Tracking**: Each chunk retains information about its source PDF file
 - **Error Handling**: Gracefully handles processing errors and continues with remaining files
+- **Dataset Debugging**: Creates a .xtx file that can be used for cleaning data and debugging faulty LLM responses
+
+## Create your Project Directory & Navigate to the New Directory
+
+```bash
+mkdir PDFtoText
+cd PDFtoText
+```
+
+## Create a Virtual Environment
+
+```bash
+Python3 -m venv PDFtoText_env
+```
 
 ## Requirements
 
