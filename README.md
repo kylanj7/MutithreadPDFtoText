@@ -42,6 +42,10 @@ Each chunk in the output file includes:
 - Text content
 - Separated by `---CHUNK SEPARATOR---`
 
+## Example:
+
+<img width="904" height="1016" alt="Screenshot from 2025-11-23 21-55-56" src="https://github.com/user-attachments/assets/78819c37-9139-4284-b07d-342ea4c271c0" />
+
 ## Performance
 
 The script automatically uses all available CPU cores (`multiprocessing.cpu_count()`) for optimal performance when processing large numbers of PDFs.
